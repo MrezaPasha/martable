@@ -1,6 +1,6 @@
 package org.sadr.web.config;
 
-import org.apache.tomcat.dbcp.dbcp2.BasicDataSource;
+import org.apache.commons.dbcp2.BasicDataSource;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
 import org.hibernate.SessionFactory;
 import org.jasypt.encryption.pbe.PooledPBEStringEncryptor;
